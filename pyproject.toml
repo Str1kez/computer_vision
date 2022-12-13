@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "computer-vision"
+version = "0.1.0"
+description = ""
+authors = ["Str1kez <vazinov@yandex.ru>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^6.5.2"
+numpy = "^1.23.5"
+scipy = "^1.9.3"
+matplotlib = "^3.6.2"
+Pillow = "^9.3.0"
+opencv-python = "^4.6.0.66"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
