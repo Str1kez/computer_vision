@@ -7,7 +7,7 @@ readme = "README.md"
 packages = []
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 notebook = "^6.5.2"
 numpy = "^1.23.5"
 scipy = "^1.9.3"
@@ -15,6 +15,9 @@ matplotlib = "^3.6.2"
 Pillow = "^9.3.0"
 opencv-python = "^4.6.0.66"
 jupyter = "^1.0.0"
+torch = "^1.13.1"
+scikit-learn = "^1.2.0"
+torchvision = "^0.14.1"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -26,7 +29,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 120
-target-version = ['py311']
+target-version = ['py310']
 #include = '\.pyi?$'
 exclude = '''
 (
